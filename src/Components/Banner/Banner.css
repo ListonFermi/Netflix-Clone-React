@@ -1,6 +1,29 @@
 .banner {
     background-image: url('/banner.webp');
-    height: 625px;
+    height: 525px;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+}
+
+.title{
+    margin-top: 150px;
+    height: 150px;
+    width: 500px;
+    margin-left: 40px;
+}
+
+.title h1{
+    color: white;
+    font-size: 3.5rem;
+
+}
+
+.title p{
+    color: white;
+
+}
+
+.title button{
+    height: 45px;
 }

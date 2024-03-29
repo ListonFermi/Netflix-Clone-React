@@ -1,27 +1,27 @@
-.card{
-    display: flex;
-    overflow-x: scroll;
-    /* overflow-y: hidden; */
+.row{
+    margin-left: 75px;
 }
 
-.card::-webkit-scrollbar{
+.row h1{
+    color: whitesmoke;
+    padding: 10px 0px;
+}
+
+.row-content{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.row-content::-webkit-scrollbar{
     display: none;
 }
 
-.card img{
-    margin-left: 5px;
-    width: 260px ;
-    height: 147px ;
+.row-content img{
+    margin-left: 10px ;
     transition: 1s;
 }
 
-.card img:hover{
+.row-content img:hover{
+    transform: scale(1.25);
     cursor: pointer;
-    width: 300px ;
-    height: 160px ;
-    transform: scale(1.1);
-}
-
-.title{
-    margin: none;
 }
