@@ -1,0 +1,45 @@
+.navbar{
+    height: 70px;
+    padding: 0px 60px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 100px;
+}
+
+.navbar-btns{
+    color: white;
+    display: flex;
+    list-style: none;
+}
+
+.navbar-btns li{
+    margin: 0px 20px;
+    font-size: 1rem;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 100px;
+}
+
+.nav-search{
+    height: 24px;
+    width: 24px;
+    padding: 0px 20px;
+}
+
+.nav-children{
+    color: white;
+    padding: 0px 20px;
+}
+
+.nav-avatar{
+    height: 40px;
+    padding: 0px 20px;
+}

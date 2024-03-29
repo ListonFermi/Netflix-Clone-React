@@ -1,0 +1,27 @@
+.card{
+    display: flex;
+    overflow-x: scroll;
+    /* overflow-y: hidden; */
+}
+
+.card::-webkit-scrollbar{
+    display: none;
+}
+
+.card img{
+    margin-left: 5px;
+    width: 260px ;
+    height: 147px ;
+    transition: 1s;
+}
+
+.card img:hover{
+    cursor: pointer;
+    width: 300px ;
+    height: 160px ;
+    transform: scale(1.1);
+}
+
+.title{
+    margin: none;
+}

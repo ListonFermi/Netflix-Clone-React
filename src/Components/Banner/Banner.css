@@ -1,0 +1,6 @@
+.banner {
+    background-image: url('/banner.webp');
+    height: 625px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
