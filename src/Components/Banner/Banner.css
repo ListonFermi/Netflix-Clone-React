@@ -24,6 +24,53 @@
 
 }
 
+.title .buttons{
+    display: flex;
+    margin-top: 30px;
+}
+
 .title button{
     height: 45px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.title button p{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.title #play-btn{
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title #play-btn p{
+    color: black;
+}
+
+.title #info-btn{
+    margin-left: 40px;
+    width: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(128, 128, 128);
+    color: white;
+}
+
+.title button:hover{
+    cursor: pointer;
+}
+
+.title #play-btn:hover{
+    background-color: rgba(128, 128, 128, 0.61)
+}
+
+.title #info-btn:hover{
+    background-color:rgba(128, 128, 128, 0.659);
 }

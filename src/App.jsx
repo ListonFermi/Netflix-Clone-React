@@ -20,7 +20,6 @@ function App() {
     <>
       <Navbar />
       <Banner />
-
       {rows.map(row=><RowPost rowTitle={row.rowTitle} tag={row.tag} />)}
     </>
   )

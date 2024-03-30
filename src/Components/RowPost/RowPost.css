@@ -17,6 +17,8 @@
 }
 
 .row-content img{
+    height: 200px;
+    width: 600px;
     margin-left: 10px ;
     transition: 1s;
 }
