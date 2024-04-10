@@ -13,15 +13,14 @@ function App() {
     { rowTitle: 'Horror', tag: 'horror' },
     { rowTitle: 'Romance', tag: 'romanceMovies' },
     { rowTitle: 'Documentaries', tag: 'documentaries' },
-  ]
-
+  ] 
 
   return (
-    <>
-      <Navbar />
-      <Banner />
-      {rows.map(row=><RowPost rowTitle={row.rowTitle} tag={row.tag} />)}
-    </>
+      <>
+        <Navbar />
+        <Banner />
+        {rows.map(row => <RowPost rowTitle={row.rowTitle} tag={row.tag} />)}
+      </>
   )
 }
 
